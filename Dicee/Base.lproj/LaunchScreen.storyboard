@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="dlg-33-bhX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="hC3-ww-yUd">
+                                <rect key="frame" x="109" y="384" width="196" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.303520761614821" green="0.5170059974747474" blue="0.2128623058402011" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="dlg-33-bhX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1u1-Hl-43c"/>
+                            <constraint firstItem="hC3-ww-yUd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9eA-vb-2ec"/>
+                            <constraint firstItem="hC3-ww-yUd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="AFP-go-UAE"/>
+                            <constraint firstAttribute="trailing" secondItem="dlg-33-bhX" secondAttribute="trailing" id="Dbn-cA-wTr"/>
+                            <constraint firstItem="dlg-33-bhX" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="Lk2-iZ-nj5"/>
+                            <constraint firstItem="hC3-ww-yUd" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LmH-Mz-BxM"/>
+                            <constraint firstItem="dlg-33-bhX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Pse-Lt-kmQ"/>
+                            <constraint firstItem="hC3-ww-yUd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TBN-7G-yNZ"/>
+                            <constraint firstItem="dlg-33-bhX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="UI9-eV-NVE"/>
+                            <constraint firstAttribute="bottom" secondItem="dlg-33-bhX" secondAttribute="bottom" id="b1D-xT-iNh"/>
+                            <constraint firstAttribute="bottom" secondItem="dlg-33-bhX" secondAttribute="bottom" id="t9L-ex-9zz"/>
+                            <constraint firstItem="dlg-33-bhX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="vpd-5I-f38"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="373.66071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DiceeLogo" width="196" height="128"/>
+        <image name="GreenBackground" width="444.5" height="414"/>
+    </resources>
+</document>
